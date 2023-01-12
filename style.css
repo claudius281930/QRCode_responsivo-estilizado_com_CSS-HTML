@@ -1,0 +1,124 @@
+/*  .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+
+:root {
+  --clr1: #d5e1ef;
+  --clr2: #213351;
+  --clr3: #566172;
+  --clr4: #ffffff;
+}
+
+@media only screen and (min-width: 769px) {
+  body {
+    background: var(--clr1);
+    text-align: center;
+  }
+  main {
+    width: 374px;
+    height: 600px;
+    background: var(--clr4);
+    border-radius: 15px;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  section img {
+    width: 90%;
+    height: 30%;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  section ~ #text {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px blue; */
+  }
+  .container-text {
+    width: 85%;
+    height: 85%;
+    /* text-align: center; */
+    position: relative;
+    top: 0px;
+    /* border: solid 1px black; */
+  }
+  #improve {
+    width: 95%;
+    height: 90%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--clr2);
+    /* border: solid 1px black; */
+  }
+  #scan {
+    width: 95%;
+    height: 90%;
+    font-size: 19px;
+    color: var(--clr3);
+    text-align: center;
+    /* border: solid 1px blue; */
+  }
+}
+
+
+/* Mobile first complate!*/
+@media only screen and (min-width: 480px) and 
+(max-width: 768px) {
+  body {
+    font-size: 11px;
+    background: var(--clr1);
+    text-align: center;
+  }
+  main {
+    width: 374px;
+    height: 600px;
+    background: var(--clr4);
+    border-radius: 15px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  section img {
+    width: 90%;
+    height: 30%;
+    
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  section ~ #text {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    /* border: solid 1px blue; */
+  }
+  .container-text {
+    width: 85%;
+    height: 85%;
+    /* text-align: center; */
+    position: relative;
+    top: 0px;
+    /* border: solid 1px black; */
+  }
+  #improve {
+    width: 95%;
+    height: 90%;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--clr2);
+    /* border: solid 1px black; */
+  }
+  #scan {
+    width: 95%;
+    height: 90%;
+    font-size: 19px;
+    color: var(--clr3);
+    text-align: center;
+    /* border: solid 1px blue; */
+  }
+}
